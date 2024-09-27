@@ -4,16 +4,16 @@ import { project } from "../types"
 const projects: project[] = [
   {
     name: "Pomodoro Timer",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, nisi!",
-    techs: ["typescript", "react", "tailwind"],
-    images: ["fdfdf", "faffd"],
+    description: "Esta es la descripcion del projecto blablablabla",
+    techs: ["typescript", "react", "tailwindcss"],
+    images: ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
     link: "https:/github.io/Markucho18"
   },
   {
     name: "Minesweeper",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores, nisi!",
-    techs: ["typescript", "react", "tailwind"],
-    images: ["fdfdf", "faffd"],
+    description: "Esta es la descripcion del projecto blablablabla",
+    techs: ["typescript", "react", "tailwindcss"],
+    images: ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
     link: "https:/github.io/Markucho18"
   },
 ]
