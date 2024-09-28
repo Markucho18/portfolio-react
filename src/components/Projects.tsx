@@ -20,7 +20,7 @@ const projects: project[] = [
 
 const Projects: React.FC = () => {
   return (
-    <section className="w-full bg-red-500">
+    <section id="projects" className=" responsive-padding flex gap-10 w-full bg-zinc-600">
       {projects.map((project, i) => (
         <Project
           key={i}

@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.pene {
+  background-image: url("./assets/screenshots/defaultScreenshot.webp");
+}
+
+.responsive-padding{
+  @apply 2xl:px-80 xl:px-60 lg:px-40 md:px-20 sm:px-4
+}
+
+.nav-bar-hover{
+  height: 50%;
+  width: 50%;
+  background-color: white;
+  transition: width 300ms ease-in-out;
+}
+
+.nav-bar-hover:hover{
+  width: 100%;
+}
