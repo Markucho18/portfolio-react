@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.pene {
-  background-image: url("./assets/screenshots/defaultScreenshot.webp");
+html{
+  scroll-behavior: smooth;
 }
 
 .responsive-padding{
