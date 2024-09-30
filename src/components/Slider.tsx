@@ -9,7 +9,7 @@ interface SliderProps {
 
 const Slider: React.FC<SliderProps> = ({images}) => {
 
-  const imageSize = 320
+  const imageSize = 640
 
   const [currentSlide, setCurrentSlide] = useState(1)
 
@@ -20,19 +20,20 @@ const Slider: React.FC<SliderProps> = ({images}) => {
 
   return (
     <div
-      style={{width: `${imageSize}px`, height: `${imageSize}px`}}
-      className="flex relative slider overflow-hidden"
+      style={{width: `${imageSize}px`, height: `320px`}}
+      className="flex relative slider overflow-hidden rounded-md"
     >
       <div
         style={{transform: `translateX(${0 - (imageSize * (currentSlide - 1))}px)`}}
-        className="flex h-full transition-transform duration-300 ease-in-out bg-blue-200"
+        className="flex h-full transition-transform duration-300 ease-in-out"
       >
         {images.map((image, i) => (
           <div
-            style={{/* backgroundImage: `url("${image}")`, */ width: `${imageSize}px`, height: `${imageSize}px`}}
-            className="bg-center bg-cover pene"
+            style={{/* backgroundImage: `url("${image}")`, */ width: `${imageSize}px`, height: `320px`}}
+            className={`flex justify-center items-center bg-center bg-cover bg-blue-300`}
             key={i}
           >
+            <p className="text-xl">imagen {i + 1}</p>
           </div>
         ))}
       </div>
