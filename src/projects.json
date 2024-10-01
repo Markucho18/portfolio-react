@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Pomodoro Timer",
+    "description": "Esta es la descripcion del projecto blablablabla",
+    "techs": ["typescript", "react", "tailwindcss"],
+    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "link": "https:/github.io/Markucho18"
+  },
+  {
+    "name": "Minesweeper",
+    "description": "Esta es la descripcion del projecto blablablabla",
+    "techs": ["typescript", "react", "tailwindcss"],
+    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "link": "https:/github.io/Markucho18"
+  },
+  {
+    "name": "Pomodoro Timer",
+    "description": "Esta es la descripcion del projecto blablablabla",
+    "techs": ["typescript", "react", "tailwindcss"],
+    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "link": "https:/github.io/Markucho18"
+  },
+  {
+    "name": "Minesweeper",
+    "description": "Esta es la descripcion del projecto blablablabla",
+    "techs": ["typescript", "react", "tailwindcss"],
+    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "link": "https:/github.io/Markucho18"
+  }
+]

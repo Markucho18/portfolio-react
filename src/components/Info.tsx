@@ -33,9 +33,9 @@ const Info: React.FC<InfoProps> = ({ setTopIsVisible })  => {
       <section
         ref={targetRef}
         id="info"
-        className="responsive-padding flex justify-start gap-6 w-full  pt-20"
+        className="responsive-padding flex justify-start gap-12 w-full  pt-20"
       >
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-2">
           <div className="flex place-content-center rounded-full size-48 overflow-hidden">
             <img src={jotchua}/>
           </div>

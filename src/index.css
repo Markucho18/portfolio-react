@@ -31,6 +31,11 @@ html{
   -moz-box-shadow: -1px 0px 9px 1px rgba(0,0,0,0.75);
 }
 
+.grid-projects{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+}
+
 /* --------------------FONTS------------------ */
 
 .kanit-light {
