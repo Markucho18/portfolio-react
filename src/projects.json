@@ -1,30 +1,30 @@
 [
   {
     "name": "Pomodoro Timer",
-    "description": "Esta es la descripcion del projecto blablablabla",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["typescript", "react", "tailwindcss"],
-    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "link": "https:/github.io/Markucho18"
   },
   {
     "name": "Minesweeper",
-    "description": "Esta es la descripcion del projecto blablablabla",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["typescript", "react", "tailwindcss"],
-    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "link": "https:/github.io/Markucho18"
   },
   {
     "name": "Pomodoro Timer",
-    "description": "Esta es la descripcion del projecto blablablabla",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["typescript", "react", "tailwindcss"],
-    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "link": "https:/github.io/Markucho18"
   },
   {
     "name": "Minesweeper",
-    "description": "Esta es la descripcion del projecto blablablabla",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["typescript", "react", "tailwindcss"],
-    "images": ["../assets/screenshots/defaultScreenshot.webp", "../assets/screenshots/defaultScreenshot.webp"],
+    "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "link": "https:/github.io/Markucho18"
   }
 ]

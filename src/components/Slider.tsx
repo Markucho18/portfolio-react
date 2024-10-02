@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
 
@@ -7,8 +7,6 @@ interface SliderProps {
 }
 
 const Slider: React.FC<SliderProps> = ({ images }) => {
-
-  const [imageSize, setImageSize] = useState(520)
 
   const [slide, setSlide] = useState(0)
 
@@ -22,7 +20,18 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
     else setSlide(slide + 1)
   }
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  
+  const imageRef = useRef<HTMLDivElement>(null)
+  
+  const [imageWidth, setImageWidth] = useState<number>(0)
+
+  useEffect(() => {
+    if (imageRef.current) {
+      setImageWidth(imageRef.current.offsetWidth);
+    }
+  }, [imageRef.current?.offsetWidth]);
+
+/*   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,30 +52,31 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
   useEffect(()=>{
     console.log("El tamaño de la imagen ha cambiado")
     console.log(imageSize)
-  }, [imageSize])
+  }, [imageSize]) */
 
 
   return (
     <div
-      style={{width: `${imageSize}px`, height: "320px"}}
-      className="relative overflow-hidden"
+      ref={imageRef}
+      className="relative overflow-hidden w-full h-[320px]"
     >
       <div
-        style={{width: `${images.length * imageSize}px`, transform: `translateX(-${slide * imageSize}px)`, height: "100%" }}
-        className="flex overflow-hidden transition-transform duration-200 ease-in-out"
+        style={{width: `${images.length * imageWidth}px`, transform: `translateX(-${slide * imageWidth}px)`}}
+        className="flex h-full overflow-hidden transition-transform duration-200 ease-in-out"
       >
-        {images.map((image) => (
-          <div
-            style={{backgroundImage: `url(${image})`}}
-            className="flex w-full justify-center items-center bg-center bg-cover bg-blue-300"
-          >
-            <p className="text-red-500 text-2xl">{slide}</p>
+        {images.map((image, i) => (
+          <div className="size-full">
+            <img
+              key={i}
+              src={image}
+              className="size-full object-cover object-center"
+            />
           </div>
         ))}
       </div>
       <div className="absolute left-1/2 -translate-x-1/2 bottom-0 flex p-3 gap-2">
         {images.map((_, i)=>(
-          <div className={`rounded-full size-4 ${slide == i ? "bg-white" : "bg-gray-300"}`}>
+          <div key={i} className={`rounded-full size-4 ${slide == i ? "bg-white" : "bg-gray-300"}`}>
           </div>
         ))}
       </div>
