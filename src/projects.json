@@ -8,27 +8,31 @@
       "https://i.ibb.co/1MZtdML/pomodoro-Timer-Screenshot2.webp",
       "https://i.ibb.co/WkvFPMH/pomodoro-Timer-Screenshot3.webp"
     ],
-    "link": "https:/github.io/Markucho18"
+    "pageLink": "https://marcossosaportfolio.netlify.app",
+    "link": "https://github.com/Markucho18/pomodoro-timer"
   },
   {
     "name": "E-Commmerce",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["typescript", "react", "tailwindcss"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
-    "link": "https:/github.io/Markucho18"
+    "pageLink": "",
+    "link": "https://github.com/Markucho18/e-commerce-ts"
   },
   {
     "name": "Minesweeper",
     "description": "El clasico buscaminas hecho con arrays y estados globales, tipado y estilizado. Permite cambiar la dificultad y una experiencia de juego casi identica al original.",
     "techs": ["typescript", "react", "tailwindcss"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
-    "link": "https:/github.io/Markucho18"
+    "pageLink": "",
+    "link": "https://github.com/Markucho18/minesweeper-ts"
   },
   {
     "name": "Login Python",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, officia cupiditate. Nostrum ducimus, pariatur quasi iste nam aut autem doloribus hic esse laborum aliquam. Praesentium dolorum doloremque at amet ea rerum laudantium! Esse tenetur itaque ex veritatis pariatur perspiciatis voluptates ipsum? Explicabo corrupti consequuntur eos nobis culpa aliquam! Accusantium, magni.",
     "techs": ["python", "sql", "css"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
+    "pageLink": "",
     "link": "https:/github.io/Markucho18"
   }
 ]

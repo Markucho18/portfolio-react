@@ -29,7 +29,7 @@ const Info: React.FC<InfoProps> = ({ setTopIsVisible })  => {
   }, [targetRef]);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
       <section
         ref={targetRef}
         id="info"

@@ -3,5 +3,6 @@ export interface project {
   description: string
   techs: string[]
   images: string[]
-  link: string
+  pageLink: string
+  codeLink: string
 }

@@ -4,7 +4,7 @@ import { getTechImage } from "../utils/getTechImage"
 import { TbWorld } from "react-icons/tb";
 import { FaCode } from "react-icons/fa6";
 
-const Project: React.FC<project> = ({name, description, techs, images, link}) => {
+const Project: React.FC<project> = ({name, description, techs, images, pageLink, codeLink}) => {
 
   return (
     <div className="flex flex-col gap-4 items-center py-4 hover:bg-white/10 hover:-translate-y-2  soft-shadow rounded-lg transition-all duration-300 ease-in-out">
@@ -20,11 +20,11 @@ const Project: React.FC<project> = ({name, description, techs, images, link}) =>
         images={images}
       />
       <div className="flex gap-4 px-2">
-        <a href="#" className="flex flex-1 justify-center gap-2 items-center rounded-3xl px-6 py-2 text-lg bg-black/30 hover:bg-black/60 transition-colors duration-200 ease-in-out">
+        <a href={pageLink} className="flex flex-1 justify-center gap-2 items-center rounded-3xl px-6 py-2 text-lg bg-black/30 hover:bg-black/60 transition-colors duration-200 ease-in-out">
           <TbWorld />
           <span>Pagina</span> 
         </a>
-        <a href="#" className="flex flex-1 justify-center gap-2 items-center rounded-3xl px-6 py-2 text-lg bg-black/30 hover:bg-black/60 transition-colors duration-200 ease-in-out">
+        <a href={codeLink} className="flex flex-1 justify-center gap-2 items-center rounded-3xl px-6 py-2 text-lg bg-black/30 hover:bg-black/60 transition-colors duration-200 ease-in-out">
           <FaCode />
           <span>Codigo</span> 
         </a>
