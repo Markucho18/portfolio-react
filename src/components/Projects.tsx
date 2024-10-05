@@ -20,7 +20,8 @@ const Projects: React.FC = () => {
             description={project.description}
             techs={project.techs}
             images={project.images}
-            link={project.link}
+            pageLink={project.pageLink}
+            codeLink={project.codeLink}
           />
         ))}
       </div>

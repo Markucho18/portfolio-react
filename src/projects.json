@@ -8,8 +8,8 @@
       "https://i.ibb.co/1MZtdML/pomodoro-Timer-Screenshot2.webp",
       "https://i.ibb.co/WkvFPMH/pomodoro-Timer-Screenshot3.webp"
     ],
-    "pageLink": "https://marcossosaportfolio.netlify.app",
-    "link": "https://github.com/Markucho18/pomodoro-timer"
+    "pageLink": "https://pomodorotimermarcossosa.netlify.app",
+    "codeLink": "https://github.com/Markucho18/pomodoro-timer"
   },
   {
     "name": "E-Commmerce",
@@ -17,7 +17,7 @@
     "techs": ["typescript", "react", "tailwindcss"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "pageLink": "",
-    "link": "https://github.com/Markucho18/e-commerce-ts"
+    "codeLink": "https://github.com/Markucho18/e-commerce-ts"
   },
   {
     "name": "Minesweeper",
@@ -25,7 +25,7 @@
     "techs": ["typescript", "react", "tailwindcss"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "pageLink": "",
-    "link": "https://github.com/Markucho18/minesweeper-ts"
+    "codeLink": "https://github.com/Markucho18/minesweeper-ts"
   },
   {
     "name": "Login Python",
@@ -33,6 +33,6 @@
     "techs": ["python", "sql", "css"],
     "images": ["https://i.ibb.co/xC8Qyqc/default-Screenshot.webp", "https://i.ibb.co/xC8Qyqc/default-Screenshot.webp"],
     "pageLink": "",
-    "link": "https:/github.io/Markucho18"
+    "codeLink": "https://github.com/Markucho18"
   }
 ]
