@@ -1,4 +1,4 @@
-import jotchua from "../assets/jotchua facha.webp"
+import photo from "../assets/Foto CV.webp"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter"
@@ -37,7 +37,7 @@ const Info: React.FC<InfoProps> = ({ setTopIsVisible })  => {
       >
         <div className="flex flex-col gap-2">
           <div className="flex place-content-center rounded-full size-48 overflow-hidden">
-            <img src={jotchua}/>
+            <img src={photo}/>
           </div>
           <div className="flex justify-center gap-2">
             <a

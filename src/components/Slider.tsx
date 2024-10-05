@@ -65,9 +65,11 @@ const Slider: React.FC<SliderProps> = ({ images }) => {
         className="flex h-full overflow-hidden transition-transform duration-200 ease-in-out"
       >
         {images.map((image, i) => (
-          <div className="size-full">
+          <div
+            key={i}
+            className="size-full"
+          >
             <img
-              key={i}
               src={image}
               className="size-full object-cover object-center"
             />

@@ -3,7 +3,6 @@ import { project } from "../types"
 import { getTechImage } from "../utils/getTechImage"
 import { TbWorld } from "react-icons/tb";
 import { FaCode } from "react-icons/fa6";
-import projectsData from "../projects.json"
 
 const Project: React.FC<project> = ({name, description, techs, images, link}) => {
 
@@ -30,7 +29,12 @@ const Project: React.FC<project> = ({name, description, techs, images, link}) =>
           <span>Codigo</span> 
         </a>
       </div>
-      <p className="px-4">{description}</p>
+      <p className="px-4 indent-2">
+        {description}
+        {name === "Pomodoro Timer" && (
+          <a href="https://pomofocus.io/" target="_blank" className="text-blue-200 font-bold">pomofocus.io</a>
+        )}
+      </p>
     </div>
   )
 }
